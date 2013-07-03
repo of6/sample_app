@@ -22,7 +22,7 @@ end
 gem 'jquery-rails', '2.0.2'
 
 group :test do
-  gem 'rspec-rails', '2.11.0'
+  gem 'rspec-rails', '2.9.0'
   gem 'capybara', '1.1.2'
   gem 'rb-fsevent'
   gem 'growl'
@@ -33,5 +33,5 @@ group :test do
 end
 
 group :production do
-  gem 'sqlite3', '1.3.5'
+  gem 'pg', '0.12.2'
 end
